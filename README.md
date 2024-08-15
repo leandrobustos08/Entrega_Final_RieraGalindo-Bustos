@@ -60,5 +60,9 @@ Si entramos logueados como un usuario admin, se agrega la solapa:
 9. Ejecuta la aplicación en el servidor con `python manage.py runserver` para correr el servidor.
 
 ## Video del proyecto
- 
+
 **Link de Video:** [https://youtu.be/2SXZtheREOE?si=dVQ7yLu2EEOM3ydZ](https://youtu.be/2SXZtheREOE?si=dVQ7yLu2EEOM3ydZ)
+
+## Casos de Prueba
+
+En el file Casos de prueba.xlsx se detallan los casos de prueba realizados
