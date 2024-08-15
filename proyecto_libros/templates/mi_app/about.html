@@ -1,0 +1,41 @@
+{% extends 'mi_app/bases/base.html' %}
+
+
+{% load static %}
+
+{% block title %} Inicio {% endblock title %}
+
+{% block main %}
+    <!-- Content section 1-->
+    <section id="scroll">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'mi_app/assets/img/carlos.jpg' %}" alt="..." /></div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">Carlos Riera Galindo</h2>
+                        <p>Soy Economista de la Universidad Argentina de la Empresa (U.A.D.E.) Actualmente me encuentro trabajando en el Banco J.P. Morgan Chase & Co. en el sector de Finanzas. A lo largo de los últimos años me he dedicado al estudio de cursos y carreras complementarias que me ayuden a seguir creciendo y mejorando mis aptitudes, tales como las certificaciones en Power BI (2023), Anaplan (2023) y Python (actualmente).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 2-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'mi_app/assets/img/leandro_bustos.jpg' %}" alt="..." /></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Leandro Daniel Bustos</h2>
+                        <p>Soy contador y Licenciado en Administración de la Universidad de Buenos Aires (U.B.A.) Actualmente me encuentro trabajando en la empresa Salesforce Argentina, en el departamento de Finanzas y al mismo tiempo enseño dos materias en la Universidad donde me egrese (Auditoria y comercialización). A lo largo de los últimos años me he dedicado al estudio de cursos y carreras complementarias que me ayuden a seguir creciendo y mejorando mis aptitudes, tales como las certificaciones en Tableau (2023), Power BI (2023) y Python (actualmente).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock main %}
